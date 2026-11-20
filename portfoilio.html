@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f4ef" />
+    <title>Daniel Kayode | Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner container">
+        <a class="brand" href="#home" aria-label="Daniel Kayode, home">
+          <span class="brand__mark" aria-hidden="true">dk.</span>
+          <span class="brand__name">Daniel Kayode</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+          aria-label="Open navigation menu"
+        >
+          <span class="menu-toggle__line"></span>
+          <span class="menu-toggle__line"></span>
+          <span class="menu-toggle__line"></span>
+        </button>
+
+        <nav
+          class="site-navigation"
+          id="site-navigation"
+          aria-label="Main navigation"
+        >
+          <a href="#writing">Writing</a>
+          <a href="#expertise">Expertise</a>
+          <a href="#about">About</a>
+          <a class="site-navigation__cta" href="mailto:hello@danielkayode.com">
+            Let’s talk <span aria-hidden="true">↗</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__inner container">
+          <div class="hero-left">
+            <div class="hero-top">
+              <p class="hero__eyebrow">
+                TECHNICAL WRITER | INFRASTRUCTURE & NETWORKING
+              </p>
+              <h1 class="hero__title" id="hero-title">
+                Complex ideas.<br />
+                Clear stories.
+              </h1>
+              <span class="hero__rule" aria-hidden="true"></span>
+            </div>
+
+            <div class="hero-copy">
+              <p class="hero__bio">
+                Hello, I’m Daniel. I turn complex network engineering and field
+                deployment concepts into clear, engaging stories — so anyone can
+                understand.
+              </p>
+              <div class="hero__actions">
+                <a class="hero__button hero__button--primary" href="#writing">
+                  Explore my writing <span aria-hidden="true">↗</span>
+                </a>
+                <a
+                  class="hero__button"
+                  href="mailto:hello@danielayomikunkayode00.com"
+                >
+                  Work with me <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <aside
+            class="profile-card"
+            aria-label="About Daniel Kayode
+          "
+          >
+            <div class="profile-card__body">
+              <p class="profile-card__eyebrow">THE PERSON BEHIND THE WORDS</p>
+              <img
+                class="profile-card__avatar"
+                src="Professional photo.jpeg"
+                alt="Daniel Kayode"
+              />
+              <h2 class="profile-card__name">Daniel Kayode</h2>
+              <p class="profile-card__role">
+                Technical Writer | Infrastructure & Networking
+              </p>
+            </div>
+            <div class="profile-card__footer">
+              <p class="profile-card__footer-label">
+                MAKING COMPLEX INFRASTRUCTURE EASIER TO UNDERSTAND
+              </p>
+              <p class="profile-card__footer-text">
+                Networking. IT. Infrastructure.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="divider-section" aria-label="Availability and work">
+        <div class="divider-container container">
+          <div class="status-indicator">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span class="status-text"
+              >AVAILABLE FOR CONTRACT &amp; FREELANCE WORK</span
+            >
+          </div>
+          <a href="#work" class="action-link">THE WORK, IN WORDS &darr;</a>
+        </div>
+      </section>
+
+      <section
+        class="writing-section"
+        id="writing"
+        aria-labelledby="writing-title"
+      >
+        <div class="writing-section__inner">
+          <header class="writing-header">
+            <div class="writing-header__title">
+              <p class="writing-header__eyebrow">01 / SELECTED WRITING</p>
+              <h2 class="writing-header__heading" id="writing-title">
+                Ideas, made readable.
+              </h2>
+            </div>
+            <p class="writing-header__intro">
+              From blockchain foundations to the stories shaping crypto.
+            </p>
+          </header>
+
+          <div class="writing-grid">
+            <article class="writing-card writing-card--featured">
+              <div class="writing-art writing-art--featured" aria-hidden="true">
+                <span class="writing-art__badge">Featured Story</span>
+                <svg viewBox="0 0 800 300" preserveAspectRatio="none">
+                  <path
+                    class="writing-art__curve"
+                    d="M80 142 C190 85 265 105 360 173 S520 285 575 245 C605 224 602 120 590 58"
+                  />
+                  <path
+                    class="writing-art__curve writing-art__curve--dotted"
+                    d="M78 43 C180 168 260 176 365 91 S530 38 590 129"
+                  />
+                  <circle class="writing-art__node" cx="360" cy="91" r="8" />
+                </svg>
+              </div>
+              <div class="writing-card__body">
+                <div class="writing-card__metadata">
+                  <p class="writing-card__publication">01 / MEDIUM</p>
+                  <time datetime="2024-12-30">30th December 2024</time>
+                </div>
+                <h3 class="writing-card__title writing-card__title--featured">
+                  Subnet Mismatches Across Shared VLANs: Troubleshooting L2/L3
+                  Isolation
+                </h3>
+                <p class="writing-card__description">
+                  An IT support walkthrough investigating L2 switch
+                  configuration versus L3 host addressing to resolve silent
+                  connectivity drops between local workstations.
+                </p>
+                <a class="cta-link" href="#writing">
+                  READ FULL STORY <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+
+            <div class="writing-grid__secondary">
+              <article class="writing-card">
+                <div class="writing-art writing-art--layers" aria-hidden="true">
+                  <span class="writing-art__layer-title">LAYER 1 NETWORKS</span>
+                  <span class="writing-art__badge writing-art__badge--guide"
+                    >GUIDE</span
+                  >
+                  <svg class="writing-art__stack-icon" viewBox="0 0 48 48">
+                    <path d="m24 8 15 8-15 8-15-8 15-8Z" />
+                    <path d="m9 24 15 8 15-8M9 32l15 8 15-8" />
+                  </svg>
+                </div>
+                <div class="writing-card__body">
+                  <div class="writing-card__metadata">
+                    <p class="writing-card__publication">02 / UDEO’S BLOG</p>
+                    <time datetime="2024-06-18">18th June 2024</time>
+                  </div>
+                  <h3 class="writing-card__title">
+                    Trunking: VLAN trunking from the ground up
+                  </h3>
+                  <p class="writing-card__description">
+                    Clear, hands-on guides to 802.1Q VLAN segmentation,
+                    switchport access and trunking modes, and optimizing
+                    multi-switch interconnections to eliminate broadcast storms
+                    and reduce cabling overhead.
+                  </p>
+                  <a class="cta-link" href="#writing">
+                    EXPLORE GUIDE <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </article>
+
+              <article class="writing-card">
+                <div
+                  class="writing-art writing-art--worldcoin"
+                  aria-hidden="true"
+                >
+                  <svg viewBox="0 0 400 160" preserveAspectRatio="none">
+                    <path d="M200 80 88 42M200 80l112-38M200 80v48" />
+                    <path
+                      d="M32 18h112v52H32zM256 18h112v52H256zM144 104h112v42H144z"
+                      stroke-dasharray="4 5"
+                    />
+                    <path
+                      d="M88 42 56 32m32 10 32-10M88 42v17m224-17-32-10m32 10 32-10m-32 10v17m-112 59-32-14m32 14 32-14m-32 14v14"
+                    />
+                    <circle cx="200" cy="80" r="7" />
+                    <circle cx="88" cy="42" r="4" />
+                    <circle cx="312" cy="42" r="4" />
+                    <circle cx="200" cy="128" r="4" />
+                    <circle cx="56" cy="32" r="3" />
+                    <circle cx="120" cy="32" r="3" />
+                    <circle cx="88" cy="59" r="3" />
+                    <circle cx="280" cy="32" r="3" />
+                    <circle cx="344" cy="32" r="3" />
+                    <circle cx="312" cy="59" r="3" />
+                    <circle cx="168" cy="114" r="3" />
+                    <circle cx="232" cy="114" r="3" />
+                    <circle cx="200" cy="142" r="3" />
+                  </svg>
+                </div>
+                <div class="writing-card__body">
+                  <div class="writing-card__metadata">
+                    <p class="writing-card__publication">03 / DEFI PLANET</p>
+                    <time datetime="2024-06-18">18th June 2024</time>
+                  </div>
+                  <h3 class="writing-card__title">
+                    Understanding How Routers Handle Subnetted Networks
+                  </h3>
+                  <a class="cta-link" href="#writing">
+                    READ ANALYSIS <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="services-section"
+        id="expertise"
+        aria-labelledby="services-title"
+      >
+        <div class="services-section__inner">
+          <header class="services-section__header">
+            <p class="services-section__eyebrow">02 / MY SERVICES</p>
+            <h2 class="services-section__title" id="services-title">
+              Technical. Not impenetrable.
+            </h2>
+            <p class="services-section__intro">
+              I am currently available for both contract and freelance technical
+              writing assignments covering enterprise networking, field
+              engineering, infrastructure support/operations, and more.
+            </p>
+          </header>
+
+          <div class="services-section__divider" aria-hidden="true"></div>
+
+          <div class="services-section__list">
+            <article class="service-item">
+              <div class="service-item__heading">
+                <p class="service-item__number">01 /</p>
+                <h3 class="service-item__title">Enterprise Networking</h3>
+              </div>
+              <p class="service-item__description">
+                Clear, well-researched documentation and technical writing
+                covering core network design, protocols, routing, switching, and
+                secure enterprise architectures.
+              </p>
+            </article>
+
+            <article class="service-item">
+              <div class="service-item__heading">
+                <p class="service-item__number">02 /</p>
+                <h3 class="service-item__title">Field Engineering</h3>
+              </div>
+              <p class="service-item__description">
+                Accessible guides, standard operating procedures, and technical
+                documentation bridging complex hardware, site deployment, and
+                hands-on field operations.
+              </p>
+            </article>
+
+            <article class="service-item">
+              <div class="service-item__heading">
+                <p class="service-item__number">03 /</p>
+                <h3 class="service-item__title">Infrastructure Engineering</h3>
+              </div>
+              <p class="service-item__description">
+                Engaging content and detailed documentation covering system
+                reliability, incident management, infrastructure monitoring, and
+                day-to-day operations engineering.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="writer-section" id="about" aria-labelledby="writer-title">
+        <div class="writer-section__inner">
+          <div class="writer-intro">
+            <p class="writer-section__eyebrow">03 / THE WRITER</p>
+            <div class="writer-intro__content">
+              <h2 class="writer-intro__heading" id="writer-title">
+                Curiosity in.<br />
+                Clarity out.
+              </h2>
+              <div class="writer-intro__copy">
+                <p>
+                  I’m a technical writer with published work who enjoys
+                  translating complex engineering concepts into clear,
+                  accessible content. From enterprise networking and field
+                  operations to emerging infrastructure technologies, I make
+                  technical subjects easier to understand.
+                </p>
+                <p class="writer-intro__aside">
+                  If it’s complex and technical, I’m your go-to for making it
+                  make sense.
+                </p>
+                <a
+                  class="writer-section__link"
+                  href="mailto:hello@danielkayode.com"
+                >
+                  Daniel Kayode <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="writer-contact" id="work">
+            <div class="writer-contact__availability">
+              <p class="writer-section__eyebrow">
+                <span
+                  class="writer-section__status-dot"
+                  aria-hidden="true"
+                ></span>
+                OPEN FOR CONTRACT &amp; FREELANCE ASSIGNMENTS
+              </p>
+            </div>
+            <div class="writer-contact__main">
+              <div class="writer-contact__message">
+                <h2 class="writer-contact__heading">
+                  Let’s make it make sense.
+                </h2>
+                <p class="writer-contact__description">
+                  Have a complex idea that needs a clear story? Let’s talk about
+                  your next technical writing project.
+                </p>
+              </div>
+              <div class="writer-contact__actions">
+                <a
+                  class="writer-contact__cta"
+                  href="mailto:hello@danielkayode.com"
+                  aria-label="Email Daniel Kayode about your project"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path d="M6 18 18 6M7 6h11v11"></path>
+                  </svg>
+                </a>
+                <nav class="writer-contact__links" aria-label="Contact links">
+                  <a href="mailto:hello@danielkayode.com">
+                    Email <span aria-hidden="true">↗</span>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/danielkayode/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    LinkedIn <span aria-hidden="true">↗</span>
+                  </a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <div class="site-footer__top">
+          <p class="site-footer__name">Daniel Kayode</p>
+          <a class="site-footer__top-link" href="#home"
+            >BACK TO TOP <span aria-hidden="true">↑</span></a
+          >
+        </div>
+        <div class="site-footer__divider" aria-hidden="true"></div>
+        <div class="site-footer__bottom">
+          <p class="site-footer__subtitle">
+            NETWORK AND INFRASTRUCTURE WRITER / PUBLISHED WRITER
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const siteHeader = document.querySelector(".site-header");
+      const siteNavigation = document.querySelector("#site-navigation");
+
+      function setMenuOpen(isOpen) {
+        menuToggle.setAttribute("aria-expanded", String(isOpen));
+        menuToggle.setAttribute(
+          "aria-label",
+          isOpen ? "Close navigation menu" : "Open navigation menu",
+        );
+        siteHeader.classList.toggle("site-header--menu-open", isOpen);
+      }
+
+      menuToggle.addEventListener("click", () => {
+        const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
+        setMenuOpen(!isOpen);
+      });
+
+      siteNavigation.addEventListener("click", (event) => {
+        if (event.target.closest("a")) {
+          setMenuOpen(false);
+        }
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (
+          event.key === "Escape" &&
+          menuToggle.getAttribute("aria-expanded") === "true"
+        ) {
+          setMenuOpen(false);
+          menuToggle.focus();
+        }
+      });
+    </script>
+  </body>
+</html>
